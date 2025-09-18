@@ -1,0 +1,32 @@
+<style>
+.construction-banner {
+    background: linear-gradient(45deg, #f39c12, #e67e22);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-size: 14px;
+}
+
+.construction-banner i {
+    margin-right: 8px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Push content down to avoid overlap */
+body {
+    padding-top: 50px;
+}
+</style>
+
