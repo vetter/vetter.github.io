@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: #"Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,10 +8,9 @@ redirect_from:
 ---
 Jeffrey S. Vetter, Ph.D., is a [Corporate Fellow](https://www.ornl.gov/news/ornl-adds-five-researchers-corporate-fellow-ranks") at 
 [Oak Ridge National Laboratory (ORNL)](https://www.ornl.gov). 
-
+#
 At ORNL, he is currently the Head for the 
 [Advanced Computing Systems Research]("https://www.ornl.gov/section/advanced-computing-systems-research") Section that has six groups with over 50 staff members working on topics including computer architectures, programming systems, software engineering, distributed computing, and microelectronics. 
-
 
 For more info
 ------
