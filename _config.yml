@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Corporate Fellow and Section Head, Advanced Computing Systems Research"
   location         : "Knoxville, TN"
-  employer         : "Oak Ridge National Laboratory"
+  employer         : "Oak Ridge National Lab"
   uri              : https://vetter.github.io # URL
   email            : "vetter@computer.org" 
 
@@ -55,7 +55,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
