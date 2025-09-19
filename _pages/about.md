@@ -22,7 +22,6 @@ From 2005 through 2015, Vetter was a Joint Faculty Professor at Georgia Institut
 #
 At GT, from 2009 to 2015, Vetter was the Principal Investigator of the NSF Track 2D Experimental Computing XSEDE Facility, named [Keeneland](https://www.nsf.gov/awardsearch/showAward?AWD_ID=0910735), for large scale heterogeneous computing using graphics processors, and the Director of the [NVIDIA Center of Excellence](https://nvidianews.nvidia.com/news/nvidia-names-georgia-institute-of-technology-a-cuda-center-of-excellence-6622990).
 
-<p>
 Vetter earned his Ph.D. in Computer Science from the [Georgia Institute of Technology](http://www.cc.gatech.edu/). He joined ORNL in 2003, after stints as a computer scientist and project leader at [Lawrence Livermore National Laboratory](https://computation.llnl.gov/casc/), and postdoctoral researcher at the [University of Illinois at Urbana-Champaign](http://cs.illinois.edu/). The coherent thread through his research is developing rich architectures and software systems that solve important, real-world high-performance computing problems. Recently, his team has been investigating the effectiveness of radically diverse architectures, including deep memory hierarchies with non-volatile memory, and heterogeneous processors such as GPUs, SoCs, and field-programmable gate arrays (FPGAs), for important HPC and streaming applications. In fact, he helped to coin the term
 [Extreme Heterogeneity](https://dx.doi.org/10.2172/1473756).
 
