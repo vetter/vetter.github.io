@@ -1,0 +1,23 @@
+// vetter 18 Sep 2025
+
+// Reduce font sizes on home page
+.page__content {
+  font-size: 14px;        // Default is usually 16px
+  line-height: 1.5;       // Adjust line spacing if needed
+  
+  // Specific adjustments for different elements
+  p {
+    font-size: 14px;
+  }
+  
+  // Keep headings proportional but smaller
+  h1 { font-size: 1.8em; }  // Instead of default 2.2em
+  h2 { font-size: 1.5em; }  // Instead of default 1.8em  
+  h3 { font-size: 1.3em; }  // Instead of default 1.5em
+  h4 { font-size: 1.1em; }  // Instead of default 1.3em
+}
+
+// Target only the about/home page specifically
+.page__content.about {
+  font-size: 13px;  // Even smaller for home page only
+}
