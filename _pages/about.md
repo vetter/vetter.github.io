@@ -40,3 +40,9 @@ In 2025, HPCWire named Vetter one of its [35 Legends of HPC](https://www.hpcwire
 
 Recent sponsors of his team's work include the Department of Energy Office of Science (SC), the Defense Advanced Research Projects Agency (DARPA), the National Science Foundation (NSF), and Oak Ridge National Laboratory. Currently, Vetter serves as a level 3 manager and software project PI in the DOE Exascale Computing Project (ECP), a PI for the Domain-Specific System on a Chip program in the DAPRA Electronics Resurgence Initiative, a PI of the ASCR Sawtooth project to investigate solutions to challenges in emerging memory and storage systems, in addition to other roles.
 
+
+More Info
+====
+
+If you want more info, please ...
+
