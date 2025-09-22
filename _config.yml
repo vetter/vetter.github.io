@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Jeffrey S. Vetter / Home Page"
+title                    : "Jeffrey S. Vetter"
 title_separator          : "-"
 name                     : &name "Jeffrey S. Vetter"
 description              : &description "Corporate Fellow and Section Head, Advanced Computing Systems Research"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -28,8 +28,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Corporate Fellow and Section Head, Advanced Computing Systems Research"
   location         : "Knoxville, TN"
-  employer         : "Oak Ridge National Lab"
-  uri              : https://vetter.github.io # URL
+  employer         : "https://www.ornl.gov/"
+  uri              : "https://vetter.github.io" # URL
   email            : "vetter@computer.org" 
 
   # Academic websites
