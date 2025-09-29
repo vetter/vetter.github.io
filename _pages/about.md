@@ -23,15 +23,13 @@ Vetter earned his Ph.D. in Computer Science from the [Georgia Institute of Techn
 In fact, he helped to coin the term Extreme Heterogeneity](https://dx.doi.org/10.2172/1473756).
 
 Vetter is a Fellow of the IEEE and AAAS, and a Distinguished Scientist Member of the ACM.
-In 2018, Vetter was awarded the 
-[ORNL Director's Award for Outstanding Individual Accomplishment in Science and Technology](https://www.ornl.gov/news/vetter-named-top-scientist-ornl-s-annual-awards-night/).
 In 2025, Vetter was part of a large team that received the [DOE Secretary of Energy Achievement Award for Leadership of the Exascale Computing Project](https://www.ornl.gov/news/uniting-build-solutions-secretarys-honor-awards-recognize-ornl-teams).
 Later in 2025, HPCWire named Vetter one of its [35 Legends of HPC](https://www.hpcwire.com/35-hpc-legends/). 
-In 2010, as part of an interdisciplinary team from Georgia Tech, NYU, and ORNL, Vetter was awarded the 
-[ACM Gordon Bell Prize](http://www.hpcwire.com/offthewire/Blood-Simulation-on-Jaguar-Takes-Gordon-Bell-Prize-109907029.html).
 In 2020, along with a large team from IBM and LLNL, Vetter received the 
 [SC20 Test of Time Award](https://www.hpcwire.com/off-the-wire/first-peer-reviewed-paper-to-disclose-the-blue-gene-l-system-wins-sc20-test-of-time-award/) 
 for the paper from SC02, entitled “An Overview of the Blue Gene/L Supercomputer.”
+In 2010, as part of an interdisciplinary team from Georgia Tech, NYU, and ORNL, Vetter was awarded the 
+[ACM Gordon Bell Prize](http://www.hpcwire.com/offthewire/Blood-Simulation-on-Jaguar-Takes-Gordon-Bell-Prize-109907029.html).
 Also, his work has won awards at major venues: Best Paper Awards at the International Parallel and Distributed Processing Symposium (IPDPS), EuroPar, and the 2018 AsHES Workshop, Best Student Paper Finalist at SC14, Best Paper Finalist at the IEEE HPEC Conference, and Best Presentation at EASC 2015.
 In 2015, Vetter served as the Technical Program Chair of 
 [SC15](http://sc15.supercomputing.org/) ([SC15 Breaks Exhibits and Attendance Records While in Austin](http://www.hpcwire.com/off-the-wire/sc15-breaks-exhibits-and-attendance-records-while-in-austin/)). 
