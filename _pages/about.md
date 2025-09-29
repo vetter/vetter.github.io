@@ -10,9 +10,9 @@ redirect_from:
 Biosketch
 ======
 Jeffrey S. Vetter, Ph.D., is a [Corporate Fellow](https://www.ornl.gov/news/ornl-adds-five-researchers-corporate-fellow-ranks") at 
-[Oak Ridge National Laboratory (ORNL)](https://www.ornl.gov). 
-At ORNL, he is currently the Head for the 
-[Advanced Computing Systems Research]("https://www.ornl.gov/section/advanced-computing-systems-research") Section that has five groups with over 50 staff members working on topics including computer architectures, programming systems, software engineering, distributed computing, and microelectronics. 
+[Oak Ridge National Laboratory (ORNL)](https://www.ornl.gov), where he 
+is the Head for the 
+[Advanced Computing Systems Research (ACSR)]("https://www.ornl.gov/section/advanced-computing-systems-research") Section; ACSR has five groups with over 50 staff members working on topics including computer architectures, programming systems, software engineering, distributed computing, and microelectronics. 
 To promote research in emerging computing technologies, in 2005, Vetter founded the Experimental Computing Laboratory ([ExCL](https://excl.ornl.gov/"></a>)) and it annually serves about 100 scientists.
 Previously, Vetter was the founding group leader of the Future Technologies Group in the Computer Science and Mathematics Division from 2003 until 2020.
 From 2005 through 2015, Vetter was a Joint Faculty Professor at the [College of Computing at Georgia Institute of Technology](https://www.cc.gatech.edu). 
