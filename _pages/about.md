@@ -25,6 +25,8 @@ Vetter earned his Ph.D. in Computer Science from the [Georgia Institute of Techn
 Vetter is a Fellow of the IEEE and AAAS, and a Distinguished Scientist Member of the ACM.
 In 2018, Vetter was awarded the 
 [ORNL Director's Award for Outstanding Individual Accomplishment in Science and Technology](https://www.ornl.gov/news/vetter-named-top-scientist-ornl-s-annual-awards-night/).
+In 2025, Vetter was part of a large team that received the [DOE Secretary of Energy Achievement Award for Leadership of the Exascale Computing Project](https://www.ornl.gov/news/uniting-build-solutions-secretarys-honor-awards-recognize-ornl-teams).
+Later in 2025, HPCWire named Vetter one of its [35 Legends of HPC](https://www.hpcwire.com/35-hpc-legends/). 
 In 2010, as part of an interdisciplinary team from Georgia Tech, NYU, and ORNL, Vetter was awarded the 
 [ACM Gordon Bell Prize](http://www.hpcwire.com/offthewire/Blood-Simulation-on-Jaguar-Takes-Gordon-Bell-Prize-109907029.html).
 In 2020, along with a large team from IBM and LLNL, Vetter received the 
@@ -36,8 +38,7 @@ In 2015, Vetter served as the Technical Program Chair of
 His  books, entitled
 [Contemporary High Performance Computing: From Petascale toward Exascale (Vols. 1 -- 3)](https://www.crcpress.com/search/results?kw=jeffrey+vetter) 
 survey the international landscape of HPC. Vetter recently served as a member of the [SRC Decadal Plan Executive Committee](https://www.src.org/about/decadal-plan/).
-In 2025, Vetter was part of a large team that received the [DOE Secretary of Energy Achievement Award for Leadership of the Exascale Computing Project](https://www.ornl.gov/news/uniting-build-solutions-secretarys-honor-awards-recognize-ornl-teams).
-Later in 2025, HPCWire named Vetter one of its [35 Legends of HPC](https://www.hpcwire.com/35-hpc-legends/). 
+
 
 Recent sponsors of his team's work include the Department of Energy Office of Science (SC), the Defense Advanced Research Projects Agency (DARPA), the National Science Foundation (NSF), and Oak Ridge National Laboratory. Vetter has served as a level 3 manager and software project PI in the DOE Exascale Computing Project (ECP), a PI for the Domain-Specific System on a Chip program in the DAPRA Electronics Resurgence Initiative, a PI of the ASCR Sawtooth project to investigate solutions to challenges in emerging memory and storage systems, in addition to other project roles.
 
