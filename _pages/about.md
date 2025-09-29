@@ -20,7 +20,7 @@ At GT, from 2009 to 2015, Vetter was the Principal Investigator of the NSF Track
 From 2016 until 2020, Vetter held a joint appointment at the [Electrical Engineering and Computer Science Department](http://www.eecs.utk.edu/) of the University of Tennessee-Knoxville. 
 
 Vetter earned his Ph.D. in Computer Science from the [Georgia Institute of Technology](http://www.cc.gatech.edu/). He joined ORNL in 2003, after stints as a computer scientist and project leader at [Lawrence Livermore National Laboratory](https://computation.llnl.gov/casc/), and postdoctoral researcher at the [University of Illinois at Urbana-Champaign](http://cs.illinois.edu/). The coherent thread through his research is developing rich architectures and software systems that solve important, real-world high-performance computing problems. Recently, his team has been investigating the effectiveness of radically diverse architectures, including deep memory hierarchies with non-volatile memory, and heterogeneous processors such as GPUs, SoCs, and field-programmable gate arrays (FPGAs), for important HPC and streaming applications. 
-In fact, he helped to coin the term Extreme Heterogeneity](https://dx.doi.org/10.2172/1473756).
+In fact, he helped to coin the term [Extreme Heterogeneity](https://dx.doi.org/10.2172/1473756).
 
 Vetter is a Fellow of the IEEE and AAAS, and a Distinguished Scientist Member of the ACM.
 In 2025, Vetter was part of a large team that received the [DOE Secretary of Energy Achievement Award for Leadership of the Exascale Computing Project](https://www.ornl.gov/news/uniting-build-solutions-secretarys-honor-awards-recognize-ornl-teams).
