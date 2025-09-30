@@ -215,16 +215,6 @@ def import_presentations():
         # Add additional metadata as a section (if relevant)
         metadata_lines = []
         
-        if host_person:
-            metadata_lines.append(f"**Host:** {host_person}")
-        
-        if contributors:
-            metadata_lines.append(f"**Contributors:** {contributors}")
-        
-        if metadata_lines:
-            content_lines.append("")
-            content_lines.extend(metadata_lines)
-        
         # Write file
         final_content = "\n".join(content_lines)
         filepath.write_text(final_content, encoding='utf-8')
