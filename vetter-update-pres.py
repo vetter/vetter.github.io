@@ -13,7 +13,7 @@ import re
 from io import StringIO
 
 # CONFIGURATION - UPDATE WITH YOUR GOOGLE SHEET INFO
-# https://docs.google.com/spreadsheets/d/14MUqC_7MRgSj5RUkMYuIczd4F9v6Zd2Klq-E5x2LJAk/edit?usp=sharing
+# https://docs.google.com/spreadsheets/d/14MUqC_7MRgSj5RUkMYuIczd4F9v6Zd2Klq-E5x2LJAk/edit?usp=sharing - 30 Sep 2025 - vetter
 SPREADSHEET_ID = "14MUqC_7MRgSj5RUkMYuIczd4F9v6Zd2Klq-E5x2LJAk"
 SHEET_NAME = "presentations"  # Name of your presentations sheet
 
