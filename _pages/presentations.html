@@ -1,18 +1,61 @@
 ---
 layout: archive
-title: "Recent Presentations and Panels"
+title: "Presentations"
 permalink: /presentations/
 author_profile: true
 ---
 
-{% assign max_presentations = site.presentation_limit | default: 20 %}
+<!-- vetter 30 Sep 2025 -->
 
-{% if site.talkmap_link == true %}
+<style>
+.presentations-table {
+  width: 100%;
+  font-size: 0.9rem;
+}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+.presentations-table .pres-row {
+  display: grid;
+  grid-template-columns: 100px 1fr 200px;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  align-items: start;
+}
 
-{% endif %}
+.presentations-table .pres-date {
+  font-weight: 600;
+  color: #666;
+}
 
-{% for post in site.presentations reversed  %}
-  {% include archive-single-talk.html %}
+.presentations-table .pres-title {
+  font-weight: 500;
+}
+
+.presentations-table .pres-venue {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.presentations-table .pres-row:hover {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+  .presentations-table .pres-row {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
+</style>
+
+<div class="presentations-table">
+{% for post in site.presentations reversed %}
+  <div class="pres-row">
+    <div class="pres-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+    <div class="pres-title">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+    <div class="pres-venue">{{ post.venue }}</div>
+  </div>
 {% endfor %}
+</div>
