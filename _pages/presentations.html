@@ -1,9 +1,11 @@
 ---
 layout: archive
-title: "Presentations and Panels"
+title: "Recent Presentations and Panels"
 permalink: /presentations/
 author_profile: true
 ---
+
+{% assign max_presentations = site.presentation_limit | default: 20 %}
 
 {% if site.talkmap_link == true %}
 
@@ -11,7 +13,7 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.presentations reversed %}
+{% for post in site.presentations reversed | limit: max_presentations %}
   {% include archive-single-talk.html %}
 {% endfor %}
 
