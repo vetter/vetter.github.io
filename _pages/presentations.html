@@ -15,7 +15,8 @@ author_profile: true
 
 {% comment %}  
 {% for post in site.presentations reversed | limit: max_presentations %}
-{% endcomment %}  
+{% endcomment %} 
+
 {% for post in site.presentations reversed  %}
   {% include archive-single-talk.html %}
 {% endfor %}
