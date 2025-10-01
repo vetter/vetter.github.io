@@ -49,7 +49,8 @@ author_profile: true
 </style>
 
 <div class="presentations-table">
-{% for post in site.presentations reversed %}
+{% assign recent_presentations = site.presentations | sort: "date" | reverse | slice: 0, 20 %}
+{% for post in recent_presentations %}
   <div class="pres-row">
     <div class="pres-date">{{ post.date | date: "%Y-%m-%d" }}</div>
     <div class="pres-title">
