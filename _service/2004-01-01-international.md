@@ -1,0 +1,10 @@
+---
+collection: service
+date: '2004-01-01'
+permalink: /service/2004-international
+title: International Conference on Parallel Processing (ICPP)
+type: Vice-Chair for Performance Evaluation
+year: '2004'
+---
+
+Type: Vice-Chair for Performance Evaluation

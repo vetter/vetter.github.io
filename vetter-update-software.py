@@ -1,0 +1,237 @@
+#!/usr/bin/env python3
+"""
+Import software artifacts from Google Sheets to Jekyll Academic Pages format.
+Creates markdown files in _software/ directory.
+"""
+
+import pandas as pd
+import requests
+import yaml
+from datetime import datetime
+from pathlib import Path
+import re
+from io import StringIO
+
+# CONFIGURATION - UPDATE WITH YOUR GOOGLE SHEET INFO
+SPREADSHEET_ID = "14MUqC_7MRgSj5RUkMYuIczd4F9v6Zd2Klq-E5x2LJAk"
+SHEET_NAME = "software"  # Name of your software sheet
+
+# Trivial words to skip when creating filenames
+TRIVIAL_WORDS = {
+    'a', 'an', 'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
+    'of', 'with', 'by', 'from', 'as', 'is', 'was', 'are', 'were', 'be',
+    'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did', 'will',
+    'would', 'should', 'could', 'may', 'might', 'must', 'can', 'about'
+}
+
+def get_public_sheet_data(spreadsheet_id, sheet_name):
+    """Download data from public Google Sheet as pandas DataFrame"""
+    url = f"https://docs.google.com/spreadsheets/d/{spreadsheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+    
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        df = pd.read_csv(StringIO(response.text))
+        print(f"✓ Loaded {len(df)} software artifacts from Google Sheets")
+        return df
+    except requests.RequestException as e:
+        print(f"✗ Error fetching data: {e}")
+        print(f"   Make sure the sheet '{sheet_name}' exists and is publicly accessible")
+        return pd.DataFrame()
+
+def safe_get(row, column, default=""):
+    """Safely get value from row, handling NaN and missing columns"""
+    if column not in row:
+        return default
+    value = row[column]
+    return default if pd.isna(value) else str(value).strip()
+
+def get_first_nontrivial_word(title):
+    """Extract first non-trivial word from title for filename"""
+    if not title:
+        return "software"
+    
+    # Remove special characters and split into words
+    words = re.sub(r'[^\w\s-]', '', title.lower()).split()
+    
+    # Find first non-trivial word
+    for word in words:
+        if word and word not in TRIVIAL_WORDS and len(word) > 2:
+            return word
+    
+    # If all words are trivial, just use the first word
+    return words[0] if words else "software"
+
+def clean_url_slug(text):
+    """Convert text to URL-safe slug"""
+    if not text or pd.isna(text):
+        return ""
+    # Remove special characters, convert to lowercase
+    slug = re.sub(r'[^\w\s-]', '', str(text).lower())
+    slug = re.sub(r'[-\s]+', '-', slug)
+    return slug.strip('-')
+
+def import_software():
+    """Import software artifacts from Google Sheet to _software/ directory"""
+    print("\n" + "="*60)
+    print("SOFTWARE ARTIFACTS IMPORTER")
+    print("="*60)
+    
+    # Fetch data
+    df = get_public_sheet_data(SPREADSHEET_ID, SHEET_NAME)
+    if df.empty:
+        return
+    
+    # Create _software directory
+    software_dir = Path("_software")
+    software_dir.mkdir(exist_ok=True)
+    
+    # Remove existing software files (optional)
+    print("\nCleaning up old software files...")
+    for existing_file in software_dir.glob("*.md"):
+        existing_file.unlink()
+        print(f"  Removed: {existing_file.name}")
+    
+    print("\nCreating software files...")
+    created_count = 0
+    skipped_count = 0
+    
+    for idx, row in df.iterrows():
+        # Extract core data
+        name = safe_get(row, 'Name')
+        
+        # Skip rows without name
+        if not name:
+            skipped_count += 1
+            print(f"  ⚠ Skipping row {idx + 2}: Missing name")
+            continue
+        
+        # Extract other fields
+        description = safe_get(row, 'Description')
+        initial_year = safe_get(row, 'InitialYear')
+        url = safe_get(row, 'URL')
+        comments = safe_get(row, 'Comments')
+        
+        # Create date for sorting (use InitialYear if available, otherwise current year)
+        if initial_year:
+            date_formatted = f"{initial_year}-01-01"
+        else:
+            date_formatted = f"{datetime.now().year}-01-01"
+        
+        # Create filename: YYYY-MM-DD-word.md (or just word.md for software)
+        first_word = get_first_nontrivial_word(name)
+        
+        # For software, we might want simpler filenames without dates
+        # but keeping date for consistency with other collections
+        filename = f"{date_formatted}-{first_word}.md"
+        
+        # Handle duplicate filenames by appending a number
+        filepath = software_dir / filename
+        counter = 1
+        while filepath.exists():
+            filename = f"{date_formatted}-{first_word}-{counter}.md"
+            filepath = software_dir / filename
+            counter += 1
+        
+        # Create permalink
+        permalink_slug = clean_url_slug(first_word)
+        permalink = f"/software/{permalink_slug}"
+        
+        # Build front matter
+        front_matter = {
+            'title': name,
+            'collection': 'software',
+            'type': 'Software',
+            'permalink': permalink,
+            'date': date_formatted
+        }
+        
+        if initial_year:
+            front_matter['year'] = initial_year
+        
+        if description:
+            front_matter['excerpt'] = description
+        
+        # Create content
+        content_lines = []
+        content_lines.append("---")
+        content_lines.append(yaml.dump(front_matter, default_flow_style=False).strip())
+        content_lines.append("---")
+        content_lines.append("")
+        
+        # Add main content
+        main_content = []
+        
+        if description:
+            main_content.append(description)
+        
+        if url:
+            main_content.append(f"\n[View project]({url})")
+        
+        if comments:
+            main_content.append(f"\n{comments}")
+        
+        # Add content to file
+        if main_content:
+            content_lines.append("\n".join(main_content))
+        else:
+            content_lines.append(f"Software project: {name}")
+        
+        content_lines.append("")
+        
+        # Write file
+        final_content = "\n".join(content_lines)
+        filepath.write_text(final_content, encoding='utf-8')
+        
+        print(f"  ✓ Created: {filename}")
+        created_count += 1
+    
+    # Summary
+    print("\n" + "="*60)
+    print(f"✅ Import complete!")
+    print(f"   Created: {created_count} software files")
+    if skipped_count > 0:
+        print(f"   Skipped: {skipped_count} rows (missing data)")
+    print("="*60)
+    
+    print("\nNext steps:")
+    print("1. Review files in _software/ directory")
+    print("2. Test locally: bundle exec jekyll serve")
+    print("3. Commit: git add _software && git commit -m 'Update software projects'")
+    print("4. Push: git push origin main")
+    print(f"\n⏰ Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+def main():
+    """Main function"""
+    print("📊 SOFTWARE ARTIFACTS IMPORTER FROM GOOGLE SHEETS")
+    print("="*60)
+    
+    if SPREADSHEET_ID == "YOUR_SPREADSHEET_ID_HERE":
+        print("\n✗ ERROR: Please update SPREADSHEET_ID in the script!")
+        print("\nSetup instructions:")
+        print("1. Open your Google Sheet")
+        print("2. Click Share → 'Anyone with the link can view'")
+        print("3. Copy the spreadsheet ID from the URL:")
+        print("   https://docs.google.com/spreadsheets/d/[SPREADSHEET_ID]/edit")
+        print("4. Update SPREADSHEET_ID in this script")
+        print("\nExpected columns in your Google Sheet:")
+        print("   Name | Description | InitialYear | URL | Comments")
+        return
+    
+    print(f"📊 Spreadsheet ID: {SPREADSHEET_ID}")
+    print(f"📄 Sheet name: {SHEET_NAME}")
+    print(f"⏰ Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    try:
+        import_software()
+    except Exception as e:
+        print(f"\n✗ Unexpected error: {e}")
+        import traceback
+        traceback.print_exc()
+        print("\nTroubleshooting:")
+        print("- Verify your Google Sheet is publicly accessible")
+        print("- Check that the sheet name matches exactly")
+        print("- Ensure required column (Name) exists" )
+
+if __name__ == "__main__":
+    main()
