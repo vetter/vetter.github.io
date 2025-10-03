@@ -5,11 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  You can find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a> 
-{% endif %}
-{% if site.author.dblp %}
-  and <a href="{{site.author.dblp}}">my DBLP profile</a>
-{% endif %}
+You can find my publications on 
+
+<ul>
+  {% if site.author.googlescholar %}
+    <li><a href="{{site.author.googlescholar}}">Google Scholar</a></li>
+  {% endif %}
+  {% if site.author.dblp %}
+    <li><a href="{{site.author.dblp}}">DBLP</a></li>
+  {% endif %}
+</ul>
 
 {% include base_path %}
