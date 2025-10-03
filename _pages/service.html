@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Service Activities"
+title: "Recent Service Activities"
 permalink: /service/
 author_profile: true
 ---
@@ -50,7 +50,7 @@ author_profile: true
 </style>
 
 <div class="service-table">
-{% assign sorted_service = site.service | sort: "date" | reverse %}
+{% assign sorted_service = site.service | sort: "date" | reverse | slice: 0, 20 %}
 {% for post in sorted_service %}
   <div class="service-row">
     <div class="service-year">{{ post.year }}</div>
