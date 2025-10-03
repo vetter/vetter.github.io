@@ -1,0 +1,63 @@
+---
+layout: archive
+title: "Software Projects"
+permalink: /software/
+author_profile: true
+---
+
+<!-- vetter 02 Oct 2025 -->
+
+<style>
+.software-table {
+  width: 95%;
+  font-size: 0.8rem;
+}
+
+.software-table .software-row {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 2.5fr;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  align-items: start;
+  word-break: break-word;
+}
+
+.software-table .software-year {
+  font-weight: 500;
+  color: #888;
+}
+
+.software-table .software-name {
+  font-weight: 500;
+}
+
+.software-table .software-description {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.software-table .software-row:hover {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+  .software-table .software-row {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
+</style>
+
+<div class="software-table">
+{% assign sorted_software = site.software | sort: "date" | reverse %}
+{% for post in sorted_software %}
+  <div class="software-row">
+    <div class="software-year">{{ post.year }}</div>
+    <div class="software-name">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+    <div class="software-description">{{ post.excerpt }}</div>
+  </div>
+{% endfor %}
+</div>
