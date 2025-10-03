@@ -234,7 +234,13 @@ collections:
   presentations:
     output: true
     permalink: /:collection/:path/
-
+  service:
+    output: true
+    permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /:collection/:path/    
+    
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
