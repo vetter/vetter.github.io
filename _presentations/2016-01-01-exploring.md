@@ -9,6 +9,3 @@ venue: SPPEXA Symposium, Munich
 ---
 
 [Presentation materials](http://www.sppexa.de/sppexa-activities/annual-plenary-meeting/2016.html)
-
-
-**Host:** Felix Wolf

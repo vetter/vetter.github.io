@@ -10,6 +10,3 @@ venue: 30th Anniversary Symposium for the Center for Computational Sciences at t
 ---
 
 [Presentation materials](https://www.ccs.tsukuba.ac.jp/sympo20221013en/)
-
-
-**Host:** Taisuke Boku

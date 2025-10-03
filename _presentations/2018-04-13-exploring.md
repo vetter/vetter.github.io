@@ -9,6 +9,3 @@ venue: Queens University, Belfast
 ---
 
 [Presentation materials](https://www.qub.ac.uk/schools/eeecs/)
-
-
-**Host:** Kirk and Dimitrios

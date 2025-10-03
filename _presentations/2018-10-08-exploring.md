@@ -9,6 +9,3 @@ venue: KTH Royal Institute of Technology, Stockholm
 ---
 
 [Presentation materials](https://www.kth.se/cst/about-cst/kalender/seminars/exploring-emerging-memory-technologies-in-extreme-scale-high-performance-computing-1.845318)
-
-
-**Host:** Stefano Markidis

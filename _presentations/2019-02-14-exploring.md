@@ -11,6 +11,3 @@ venue: Multicore World 2019, Wellington
 [Presentation materials](https://multicore.world/speakers/jeffrey-s-vetter/)
 
 Ian; Jim Ang;
-
-
-**Host:** Nicolas Erdödy

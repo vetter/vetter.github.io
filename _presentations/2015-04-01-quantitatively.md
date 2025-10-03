@@ -10,6 +10,3 @@ venue: Salishan Conference on High-speed Computing, Gleneden Beach, OR
 ---
 
 [Presentation materials](http://www.lanl.gov/conferences/salishan/index.php)
-
-
-**Host:** Organizers

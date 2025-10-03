@@ -9,6 +9,3 @@ venue: 11th International Conference on Parallel Processing and Applications, Kr
 ---
 
 [Presentation materials](http://ppam.pl/program)
-
-
-**Host:** Ewa Deelman

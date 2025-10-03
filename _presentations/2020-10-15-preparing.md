@@ -12,6 +12,3 @@ venue: 33rd Workshop on Languages and Compilers for Parallel Computing (LCPC), S
 [Presentation materials](https://lcpc2020.cs.stonybrook.edu/program)
 
 virtual
-
-
-**Host:** Jose Moreira, Barbara Chapman

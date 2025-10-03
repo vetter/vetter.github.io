@@ -11,6 +11,3 @@ venue: Ecole Polytechnique Federale de Lausanne (EPFL), Geneva
 [Presentation materials](http://geneva.epfl.ch/)
 
 Human Brain Project / Blue Brain
-
-
-**Host:** Fabien, Felix

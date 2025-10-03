@@ -9,6 +9,3 @@ venue: SC18, Dallas
 ---
 
 [Presentation materials](https://sc18.supercomputing.org/?post_type=page&p=3479&id=bof225&sess=sess366)
-
-
-**Host:** Christine Cuicchi

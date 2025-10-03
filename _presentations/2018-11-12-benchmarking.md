@@ -9,6 +9,3 @@ venue: SC18, Dallas
 ---
 
 [Presentation materials](https://sc18.supercomputing.org/presentation/?id=bof190&sess=sess439)
-
-
-**Host:** Franck Cappello

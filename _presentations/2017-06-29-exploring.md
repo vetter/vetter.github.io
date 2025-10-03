@@ -10,6 +10,3 @@ venue: 2017 High Performance Computing (HPC) and Data Analytics Workshop, Hanove
 ---
 
 Presentation materials.
-
-
-**Host:** TC Tuan

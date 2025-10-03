@@ -10,6 +10,3 @@ venue: DOE Centers of Excellence Performance Portability Meeting, Glendale, AZ
 ---
 
 [Presentation materials](https://asc.llnl.gov/DOE-COE-Mtg-2016/)
-
-
-**Host:** Rob Neely

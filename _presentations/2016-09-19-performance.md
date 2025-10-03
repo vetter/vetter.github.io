@@ -9,6 +9,3 @@ venue: National Supercomputing Center in Guangzhou, Guangzhou
 ---
 
 Presentation materials.
-
-
-**Host:** Depei Qian; Yutong Lu

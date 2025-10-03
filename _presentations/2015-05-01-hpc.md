@@ -9,6 +9,3 @@ venue: 2nd International HPC Forum, Tianjin
 ---
 
 Presentation materials.
-
-
-**Host:** Yutong Lu

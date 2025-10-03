@@ -11,6 +11,3 @@ venue: National Coordination Office (NCO), Networking and Information Technology
 ---
 
 [Presentation materials](www.nitrd.org)
-
-
-**Host:** Ji Lee

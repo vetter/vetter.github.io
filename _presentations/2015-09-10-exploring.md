@@ -9,6 +9,3 @@ venue: Barcelona Supercomputing Center, Barcelona
 ---
 
 [Presentation materials](https://www.bsc.es/)
-
-
-**Host:** Mateo Valero

@@ -11,7 +11,3 @@ venue: Exascale Computing Project Annual Meeting, Kansas City
 [Presentation materials](https://whova.com/portal/webapp/ecpan_202205/Agenda/2296976)
 
 virtual
-
-
-**Host:** Kathryn Mohr and David Richards
-**Contributors:** Dongarra, Lucas, Yelick, Beckman

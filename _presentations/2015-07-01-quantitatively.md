@@ -10,6 +10,3 @@ venue: Schloss Dagstuhl, Wadern
 ---
 
 [Presentation materials](https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=15281)
-
-
-**Host:** Ewa Deelman

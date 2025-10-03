@@ -10,6 +10,3 @@ venue: 'ExaComm: Third International Workshop on Communication Architectures for
 ---
 
 [Presentation materials](http://nowlab.cse.ohio-state.edu/exacomm_prog/)
-
-
-**Host:** DK Panda

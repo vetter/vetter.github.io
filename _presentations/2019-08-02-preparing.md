@@ -9,6 +9,3 @@ venue: NITRD Future Computing Community of Interest Meeting, Washington, DC
 ---
 
 [Presentation materials](https://www.nitrd.gov/nitrdgroups/index.php?title=FC-COI-2019)
-
-
-**Host:** Parashar, Manish

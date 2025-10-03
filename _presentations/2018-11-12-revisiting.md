@@ -10,6 +10,3 @@ venue: SC18, Dallas
 ---
 
 [Presentation materials](https://www.hpcwire.com/2018/11/29/revisiting-the-2008-exascale-computing-study-at-sc18/)
-
-
-**Host:** Peter Kogge

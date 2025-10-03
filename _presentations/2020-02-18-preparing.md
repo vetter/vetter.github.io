@@ -11,6 +11,3 @@ venue: RIKEN R-CCS, Kobe
 [Presentation materials](https://www.r-ccs.riken.jp/R-CCS-Symposium/2020/)
 
 Satoshi; CoronaVirus in China caused a lot of travel problems and cancelations
-
-
-**Host:** Kentaro Sano

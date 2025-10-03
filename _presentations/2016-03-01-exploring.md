@@ -9,6 +9,3 @@ venue: Forschungszentrum Julich GmbH, Julich Supercomputing Centre (JSC), Julich
 ---
 
 [Presentation materials](http://www.fz-juelich.de/ias/jsc/EN/Home)
-
-
-**Host:** Bernd Mohr

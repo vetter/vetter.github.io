@@ -9,6 +9,3 @@ venue: 'ISC Workshop on Performance Modeling: Methods and Applications, Frankfur
 ---
 
 [Presentation materials](http://www.isc-events.com/isc15_ap/sessiondetails.htm?t=session&o=246&a=select)
-
-
-**Host:** Organizers

@@ -9,6 +9,3 @@ venue: ASCR Applied Math PI Meeting, Rockville, MD
 ---
 
 [Presentation materials](https://www.orau.gov/ascr-appliedmath-pi2019/)
-
-
-**Host:** Lee, Stephen

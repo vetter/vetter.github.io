@@ -11,6 +11,3 @@ venue: Australian National University, Canberra
 [Presentation materials](https://cecs.anu.edu.au/)
 
 Beau, Josh, NCI, others
-
-
-**Host:** Josh Milthrope

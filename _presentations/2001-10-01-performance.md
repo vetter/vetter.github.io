@@ -1,12 +1,12 @@
 ---
 collection: presentations
 date: '2001-10-01'
-location: Santa Fe
+location: Santa Fe, NM
 permalink: /presentations/2001-10-01-performance
 title: 'A performance data explosion: striking an appropriate balance between resolution
   and insight'
 type: Invited
-venue: LACSI Performance Tools Workshop, Santa Fe
+venue: LACSI Performance Tools Workshop, Santa Fe, NM
 ---
 
 Presentation materials.

@@ -9,6 +9,3 @@ venue: Exascale Application and Software Conference (EASC), Edinburgh
 ---
 
 [Presentation materials](www.easc2018.ed.ac.uk)
-
-
-**Host:** Michele

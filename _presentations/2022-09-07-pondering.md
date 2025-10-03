@@ -9,6 +9,3 @@ venue: CCDSC, Lyon
 ---
 
 Presentation materials.
-
-
-**Host:** Dongarra

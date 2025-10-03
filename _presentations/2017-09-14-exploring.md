@@ -9,6 +9,3 @@ venue: ICM, Warsaw
 ---
 
 [Presentation materials](http://icm.edu.pl/en/)
-
-
-**Host:** Marek

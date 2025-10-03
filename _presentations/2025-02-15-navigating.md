@@ -9,6 +9,3 @@ venue: Multicore World, Christchurch
 ---
 
 [Presentation materials](https://multicore.world/)
-
-
-**Host:** Nicolás Erdödy

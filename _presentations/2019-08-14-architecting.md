@@ -9,6 +9,3 @@ venue: MODSIM 2019, Seattle
 ---
 
 [Presentation materials](https://www.bnl.gov/modsim2019/)
-
-
-**Host:** Hoisie

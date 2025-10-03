@@ -10,6 +10,3 @@ venue: 'FUSENANO 2024: Molecules to Systems: The Future of Semiconductors with 1
 ---
 
 [Presentation materials](https://csm.arizona.edu/fusenano)
-
-
-**Host:** Mehmet Belviranli

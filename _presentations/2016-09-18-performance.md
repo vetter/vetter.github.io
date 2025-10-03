@@ -12,6 +12,3 @@ venue: International Workshop on HPC Architecture, Software, and Application at 
 [Presentation materials](http://thuhpgc.org/index.php/Introduction)
 
 TaihuLight workshop
-
-
-**Host:** Guangwen Yang; Haohuan Fu

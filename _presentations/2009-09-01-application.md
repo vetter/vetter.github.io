@@ -9,6 +9,3 @@ venue: High Performance Embedded Computing Workshop, Lexington, MA
 ---
 
 Presentation materials.
-
-
-**Host:** Jeremy Kepner

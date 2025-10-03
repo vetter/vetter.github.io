@@ -9,6 +9,3 @@ venue: Symposium on Materials Genome Initiative at Exascale, Spetses, Greece
 ---
 
 Presentation materials.
-
-
-**Host:** Priya

@@ -9,6 +9,3 @@ venue: Qatar Computing Research Institute, Doha
 ---
 
 Presentation materials.
-
-
-**Host:** Demillo, Rich

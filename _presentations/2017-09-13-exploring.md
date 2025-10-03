@@ -9,6 +9,3 @@ venue: 12th International Conference on Parallel Processing and Applications, Lu
 ---
 
 [Presentation materials](https://ppam.pl/)
-
-
-**Host:** Ewa Deelman

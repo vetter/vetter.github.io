@@ -9,6 +9,3 @@ venue: Workshop on Clusters, Clouds, and Data for Scientific Computing, Lyon
 ---
 
 [Presentation materials](http://www.netlib.org/utk/people/JackDongarra/CCDSC-2016/)
-
-
-**Host:** Jack Dongarra

@@ -9,6 +9,3 @@ venue: CCDSC, Lyon, France
 ---
 
 [Presentation materials](http://www.netlib.org/utk/people/JackDongarra/CCDSC-2018/)
-
-
-**Host:** Dongarra

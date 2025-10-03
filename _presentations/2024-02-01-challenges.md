@@ -9,6 +9,3 @@ venue: Joint DOE-MEXT Workshop on High Performance Computing, Tokyo
 ---
 
 Presentation materials.
-
-
-**Host:** Pete Beckman

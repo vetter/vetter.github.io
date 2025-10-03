@@ -10,6 +10,3 @@ venue: Salishan Conference on High Speed Computing (Random Access Talk), Glenede
 ---
 
 [Presentation materials](http://salishan.ahsc-nm.org/2016.html)
-
-
-**Host:** Bert Jim Ang, Ron B

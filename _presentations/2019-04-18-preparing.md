@@ -9,6 +9,3 @@ venue: NITRD HEC IA Working Group, Washington, DC
 ---
 
 Presentation materials.
-
-
-**Host:** Pino, Robinson

@@ -9,6 +9,3 @@ venue: University of Queensland, Brisbane
 ---
 
 [Presentation materials](https://rcc.uq.edu.au/event/2413/exploring-emerging-memory-technologies-extreme-scale-high-performance-computing)
-
-
-**Host:** David Abramson

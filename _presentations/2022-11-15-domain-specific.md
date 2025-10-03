@@ -9,6 +9,3 @@ venue: SC22, Dallas
 ---
 
 [Presentation materials](https://sc22.supercomputing.org/?post_type=page&p=3479&id=pan122&sess=sess187)
-
-
-**Host:** John Kim

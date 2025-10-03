@@ -9,6 +9,3 @@ venue: SC19, Denver
 ---
 
 [Presentation materials](https://sc19.supercomputing.org/presentation/?id=pan118&sess=sess233)
-
-
-**Host:** Franck Cappello

@@ -9,6 +9,3 @@ venue: Heterogeneity in Computing Workshop (at IPDPS), Milan
 ---
 
 [Presentation materials](https://hcw-ipdps.org/)
-
-
-**Host:** Ali Akoglu, DK Panda

@@ -9,6 +9,3 @@ venue: Workshop on Accelerator Programming using Directives (WACCPD), New Orlean
 ---
 
 [Presentation materials](http://www.openacc.org/WACCPD14)
-
-
-**Host:** Duncan Poole

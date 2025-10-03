@@ -9,6 +9,3 @@ venue: Barcelona Supercomputing Center, Barcelona
 ---
 
 [Presentation materials](https://www.bsc.es/education/predoctoral-phd/doctoral-symposium/6th-bsc-so-doctoral-symposium)
-
-
-**Host:** Petar Radovick

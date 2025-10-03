@@ -10,6 +10,3 @@ venue: ACM Symposium on High-Performance Parallel and Distributed Computing (HPD
 ---
 
 [Presentation materials](http://www.hpdc.org/2016/)
-
-
-**Host:** Jack Lange

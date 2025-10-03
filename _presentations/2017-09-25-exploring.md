@@ -9,6 +9,3 @@ venue: National Supercomputing Center in Guangzhou, Guangzhou
 ---
 
 [Presentation materials](http://ihpcf2017.nscc-gz.cn)
-
-
-**Host:** Depei Qian; Yutong Lu

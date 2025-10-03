@@ -9,6 +9,3 @@ venue: ISC, Hamburg
 ---
 
 [Presentation materials](https://isc.app.swapcard.com/event/isc-high-performance-2025/planning/UGxhbm5pbmdfMjYzMTU0OQ==)
-
-
-**Host:** Prasanna Balaprakash

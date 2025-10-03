@@ -9,6 +9,3 @@ venue: AsHES Workshop (in conjunction with IPDPS), Phoenix
 ---
 
 [Presentation materials](http://www.mcs.anl.gov/events/workshops/ashes/2014/)
-
-
-**Host:** Xiaosong Ma

@@ -9,6 +9,3 @@ venue: PPAM 2019, Bialystok, Poland
 ---
 
 [Presentation materials](https://ppam.pl/program)
-
-
-**Host:** Ewa Deelman

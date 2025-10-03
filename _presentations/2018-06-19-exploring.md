@@ -9,6 +9,3 @@ venue: Swiss National Supercomputing Center, Lugano
 ---
 
 [Presentation materials](http://www.cscs.ch)
-
-
-**Host:** Sadaf
