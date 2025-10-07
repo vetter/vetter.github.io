@@ -41,4 +41,6 @@ His  books, entitled
 [Contemporary High Performance Computing: From Petascale toward Exascale (Vols. 1 -- 3)](https://www.crcpress.com/search/results?kw=jeffrey+vetter) 
 survey the international landscape of HPC. Vetter recently served as a member of the [SRC Decadal Plan Executive Committee](https://www.src.org/about/decadal-plan/).
 
-Recent sponsors of his team's work include the Department of Energy Office of Science (SC), the Defense Advanced Research Projects Agency (DARPA), the National Science Foundation (NSF), and Oak Ridge National Laboratory. Vetter has served as a level 3 manager and software project PI in the DOE Exascale Computing Project (ECP), a PI for the Domain-Specific System on a Chip program in the DAPRA Electronics Resurgence Initiative, a PI of the ASCR Sawtooth project to investigate solutions to challenges in emerging memory and storage systems, in addition to other project roles.
+Vetter has been a PI for projects spanning  the Department of Energy Office of Science (SC), the Defense Advanced Research Projects Agency (DARPA), the National Science Foundation (NSF), the Department of Defense, and Oak Ridge National Laboratory. 
+
+<!-- Vetter has served as a level 3 manager and software project PI in the DOE Exascale Computing Project (ECP), a PI for the Domain-Specific System on a Chip program in the DAPRA Electronics Resurgence Initiative, a PI of the ASCR Sawtooth project to investigate solutions to challenges in emerging memory and storage systems, in addition to other project roles. -->
