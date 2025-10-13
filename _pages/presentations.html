@@ -32,6 +32,11 @@ author_profile: true
   font-weight: 500;
 }
 
+
+.presentations-table .pres-type {
+  font-weight: 500;
+}
+
 .presentations-table .pres-venue {
   color: #888;
   font-size: 0.85rem;
@@ -66,6 +71,7 @@ Pin Map of Presentations
     <div class="pres-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
     </div>
+    <div class="pres-type">{{ post.type }}</div>
     <div class="pres-venue">{{ post.venue }}</div>
   </div>
 {% endfor %}
