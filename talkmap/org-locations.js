@@ -30,9 +30,9 @@ var addressPoints = [
     -122.272863
   ],
   [
-    "A performance data explosion: striking an appropriate balance between resolution and insight<br />LACSI Performance Tools Workshop, Santa Fe; Santa Fe",
-    -30.3154739,
-    -61.1645076
+    "A performance data explosion: striking an appropriate balance between resolution and insight<br />LACSI Performance Tools Workshop, Santa Fe, NM; Santa Fe, NM",
+    35.6876096,
+    -105.938456
   ],
   [
     "Scalable performance analysis and prediction techniques for terascale computing<br />University of Texas, Austin, Austin; Austin",
@@ -155,7 +155,7 @@ var addressPoints = [
     10.7389701
   ],
   [
-    "Overview of Future Technologies at ORNL<br />Atomic Weapons Establishment (AWE) seminar, Aldermaston; Aldermaston",
+    "Overview of Future Technologies at ORNL<br />Atomic Weapons Establishment (AWE) seminar, Aldermaston, UK; Aldermaston, UK",
     51.38267,
     -1.1518107
   ],
@@ -320,11 +320,6 @@ var addressPoints = [
     7.5878261
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
-  ],
-  [
     "Blackcomb Hardware software Co-design for Nonvolatile Memory in Exascale Systems<br />SOS16, Santa Barbara; Santa Barbara",
     34.4221319,
     -119.702667
@@ -455,9 +450,9 @@ var addressPoints = [
     -112.074141
   ],
   [
-    "Exploring Emerging Technologies in the HPC Co-design Space<br />IBM TJ Watson Research Center, Yorktown; Yorktown",
-    37.2356655,
-    -76.5136495
+    "Exploring Emerging Technologies in the HPC Co-design Space<br />IBM TJ Watson Research Center, Yorktown Heights, NY; Yorktown Heights, NY",
+    41.270178,
+    -73.7753539
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-Design Space<br />Institute of Computational Science, Universita della Svizzera italina, Lugano; Lugano",
@@ -516,8 +511,8 @@ var addressPoints = [
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-Design Space<br />11th International Conference on Parallel Processing and Applications, Krakow; Krakow",
-    50.0619474,
-    19.9368564
+    50.0469432,
+    19.9971534
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-Design Space<br />Barcelona Supercomputing Center, Barcelona; Barcelona",
@@ -546,8 +541,8 @@ var addressPoints = [
   ],
   [
     "Towards Exascale Memory Systems<br />17th SIAM Conference on Parallel Processing for Scientific Computing, Paris; Paris",
-    48.8534951,
-    2.3483915
+    48.8588897,
+    2.320041
   ],
   [
     "Understanding Portability of a High-Level Programming Model on Diverse HPC Architectures<br />DOE Centers of Excellence Performance Portability Meeting, Glendale, AZ; Glendale, AZ",
@@ -610,11 +605,6 @@ var addressPoints = [
     4.8320114
   ],
   [
-    "Performance Portability for Extreme Scale High Performance Reconfigurable Computing<br />Workshop on FPGAs for Scientific Simulation and Data Analytics, NCSA; NCSA",
-    38.6794985,
-    -9.3221041
-  ],
-  [
     "Post Moores Era Supercomputing<br />SC16, Salt Lake City; Salt Lake City",
     40.7596198,
     -111.886797
@@ -646,8 +636,8 @@ var addressPoints = [
   ],
   [
     "Exploring Emerging Memory Technologies in Extreme Scale High Performance Computing<br />12th International Conference on Parallel Processing and Applications, Lublin; Lublin",
-    51.2181945,
-    22.5546776
+    51.250559,
+    22.5701022
   ],
   [
     "Exploring Emerging Memory Technologies in Extreme Scale High Performance Computing<br />ICM, Warsaw; Warsaw",
@@ -1090,8 +1080,13 @@ var addressPoints = [
     -122.272863
   ],
   [
-    "Navigating the Post-Exascale Computing Era: GPUs, Analog Computing, and AI<br />ADAC Workshop, Helsinki, Helsinki; Helsinki",
+    "Navigating the Post-Exascale Computing Era: GPUs, Analog Computing, and AI<br />ADAC Workshop, Helsinki; Helsinki",
     60.1698897,
     24.9384719
+  ],
+  [
+    "Public Private Partnerships for AI<br />Joint DOE-MEXT Workshop on High Performance Computing, Chicago; Chicago",
+    41.8755616,
+    -87.6244212
   ]
 ];
