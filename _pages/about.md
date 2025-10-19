@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Biosketch
+Leading research in heterogeneous architectures, microelectronics, and intelligent software systems for scientific discovery.
 ======
 Jeffrey S. Vetter, Ph.D., is a [Corporate Fellow](https://www.ornl.gov/news/ornl-adds-five-researchers-corporate-fellow-ranks") at [Oak Ridge National Laboratory (ORNL)](https://www.ornl.gov), where he is the Head for the 
 [Advanced Computing Systems Research (ACSR)]("https://www.ornl.gov/section/advanced-computing-systems-research") Section; 
