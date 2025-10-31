@@ -23,7 +23,7 @@ He joined ORNL in 2003, after stints as a computer scientist and project leader 
 The coherent thread through his research is developing rich architectures and software systems that solve important, real-world high-performance computing problems. 
 In particular, he has been investigating the effectiveness of radically heterogeneous architectures, including deep memory hierarchies with non-volatile memory, and heterogeneous processors such as GPUs, SoCs, and field-programmable gate arrays (FPGAs), for important HPC and streaming applications. 
 In fact, he helped to coin the term [Extreme Heterogeneity](https://dx.doi.org/10.2172/1473756).
-Most recently, he has focused on two topics:  using artificial intelligence to improve softare development and improving energy-efficiency in computing by using CMOX+X architectures like analog, neuromorphic, and quantum devices.
+Most recently, he has focused on two topics:  using artificial intelligence to improve softare development and improving energy-efficiency in computing by using CMOS+X architectures like analog, neuromorphic, and quantum devices.
 
 Vetter is a Fellow of the IEEE and AAAS, and a Distinguished Scientist Member of the ACM.
 In 2025, Vetter was part of a large team that received the [DOE Secretary of Energy Achievement Award for Leadership of the Exascale Computing Project](https://www.ornl.gov/news/uniting-build-solutions-secretarys-honor-awards-recognize-ornl-teams).
