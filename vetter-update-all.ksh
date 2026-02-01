@@ -1,4 +1,5 @@
 #!/bin/ksh -x
+set -e
 
 uv run --with pandas --with requests --with pyyaml  vetter-update-pres.py
 uv run --with pandas --with requests --with pyyaml  vetter-update-service.py
