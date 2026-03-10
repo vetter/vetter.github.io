@@ -101,8 +101,8 @@ var addressPoints = [
   ],
   [
     "Performance Analysis of Ultrascale Systems Using Performance Counters<br />SIAM Conf. Parallel Processing for Scientific Computing, San Francisco; San Francisco",
-    37.7792588,
-    -122.4193286
+    37.7879363,
+    -122.4075201
   ],
   [
     "A Science-Based Path to Petascale Computing<br />Intel HPC Roundtable, Portland, OR; Portland, OR",
@@ -131,8 +131,8 @@ var addressPoints = [
   ],
   [
     "HPCchallenge Benchmarks: An Expanded View of High End Computer (HEC) Performance<br />SC2004 High Performance Computing, Networking, and Storage, Pittsburgh; Pittsburgh",
-    40.4416941,
-    -79.9900861
+    40.4406968,
+    -80.0025666
   ],
   [
     "High Performance Computing: Successes, Failures, and Future Directions<br />ACS/IEEE International Conference on Computer Systems and Applications, Cairo; Cairo",
@@ -146,8 +146,8 @@ var addressPoints = [
   ],
   [
     "Embracing Uncertainty: Performance analysis and prediction on next-generation computer architectures<br />DOE SciDAC Conference, San Francisco; San Francisco",
-    37.7792588,
-    -122.4193286
+    37.7879363,
+    -122.4075201
   ],
   [
     "How video games and multimedia will affect the HPC industry?<br />International Conf. Parallel Processing, Oslo; Oslo",
@@ -216,8 +216,8 @@ var addressPoints = [
   ],
   [
     "Programming Accelerator Clusters \u2014 Where Do We Go From Here?<br />Workshop on Parallel Programming on Accelerator Clusters (PPAC), New Orleans; New Orleans",
-    29.9559145,
-    -90.0730259
+    29.9561422,
+    -90.0733934
   ],
   [
     "Application Accelerators: Deus ex machina?<br />High Performance Embedded Computing Workshop, Lexington, MA; Lexington, MA",
@@ -236,8 +236,8 @@ var addressPoints = [
   ],
   [
     "Is PGAS right for heterogeneous computing<br />PGAS Conference, Ashburn, VA; Ashburn, VA",
-    39.029784,
-    -77.4744148
+    39.0437192,
+    -77.4874899
   ],
   [
     "Toward Exascale Computational Science with Graphics Processors<br />Cray Asia Technical Workshop, Tokyo; Tokyo",
@@ -251,8 +251,8 @@ var addressPoints = [
   ],
   [
     "Toward Exascale Computational Science: the Role of Emerging Technologies<br />SC10 Broader Engagement Workshop, New Orleans; New Orleans",
-    29.9559145,
-    -90.0730259
+    29.9561422,
+    -90.0733934
   ],
   [
     "Transformational Computational Science: Past, Present, and Future<br />Convocation for Georgia Tech School of Computational Science and Engineering, Atlanta; Atlanta",
@@ -311,8 +311,8 @@ var addressPoints = [
   ],
   [
     "The Critical Role of Software Infrastructure in Future Exascale Systems<br />NVIDIA GTC Asia, Beijing; Beijing",
-    40.190632,
-    116.412144
+    39.9057136,
+    116.3912972
   ],
   [
     "The Critical Role of Software Infrastructure in Future Exascale Systems<br />40th SPEEDUP Workshop, Basel, Switzerland; Basel, Switzerland",
@@ -376,8 +376,8 @@ var addressPoints = [
   ],
   [
     "Classifying Soft Error Vulnerabilities in Extreme-Scale Scientific Applications Using a Binary Instrumentation Tool<br />SIAM CSE Conference, Boston; Boston",
-    42.3554334,
-    -71.060511
+    42.3588336,
+    -71.0578303
   ],
   [
     "Creating Effective Teams<br />DOE CMD-IT National Laboratories Professional Development Workshop for Underrepresented Participants, ORNL, Oak Ridge; Oak Ridge",
@@ -396,8 +396,8 @@ var addressPoints = [
   ],
   [
     "Automated Exploration of the HPC Codesign Space<br />International HPC Forum (IHPCF), Changsha, China; Changsha, China",
-    28.1450774,
-    113.2384362
+    28.1987538,
+    112.9708685
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-design Space<br />FRCRC High Performance Computing Symposium, Laramie, WY; Laramie, WY",
@@ -441,8 +441,8 @@ var addressPoints = [
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-design Space<br />Qatar Computing Research Institute, Doha; Doha",
-    25.2856329,
-    51.5264162
+    25.3108807,
+    51.5081812
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-design Space<br />AsHES Workshop (in conjunction with IPDPS), Phoenix; Phoenix",
@@ -471,8 +471,8 @@ var addressPoints = [
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-design Space<br />Workshop on Accelerator Programming using Directives (WACCPD), New Orleans; New Orleans",
-    29.9559145,
-    -90.0730259
+    29.9561422,
+    -90.0733934
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-Design Space<br />JST/CREST International Symposium on Post Petascale System Software, Kobe; Kobe",
@@ -511,8 +511,8 @@ var addressPoints = [
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-Design Space<br />11th International Conference on Parallel Processing and Applications, Krakow; Krakow",
-    50.0469432,
-    19.9971534
+    50.0619474,
+    19.9368564
   ],
   [
     "Exploring Emerging Technologies in the HPC Co-Design Space<br />Barcelona Supercomputing Center, Barcelona; Barcelona",
@@ -541,8 +541,8 @@ var addressPoints = [
   ],
   [
     "Towards Exascale Memory Systems<br />17th SIAM Conference on Parallel Processing for Scientific Computing, Paris; Paris",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "Understanding Portability of a High-Level Programming Model on Diverse HPC Architectures<br />DOE Centers of Excellence Performance Portability Meeting, Glendale, AZ; Glendale, AZ",
@@ -596,13 +596,18 @@ var addressPoints = [
   ],
   [
     "Performance Portability for Extreme Scale High Performance Computing<br />National Supercomputing Center in Guangzhou, Guangzhou; Guangzhou",
-    23.1301964,
-    113.2592945
+    23.1288454,
+    113.2590064
   ],
   [
     "Performance Portability for Extreme Scale High Performance Computing<br />Workshop on Clusters, Clouds, and Data for Scientific Computing, Lyon; Lyon",
     45.7578137,
     4.8320114
+  ],
+  [
+    "Performance Portability for Extreme Scale High Performance Reconfigurable Computing<br />Workshop on FPGAs for Scientific Simulation and Data Analytics, Urbana, IL; Urbana, IL",
+    40.1117174,
+    -88.207301
   ],
   [
     "Post Moores Era Supercomputing<br />SC16, Salt Lake City; Salt Lake City",
@@ -646,8 +651,8 @@ var addressPoints = [
   ],
   [
     "Exploring Emerging Memory Technologies in Extreme Scale High Performance Computing<br />National Supercomputing Center in Guangzhou, Guangzhou; Guangzhou",
-    23.1301964,
-    113.2592945
+    23.1288454,
+    113.2590064
   ],
   [
     "Post Moore Supercomputing<br />SC17, Denver; Denver",
@@ -761,8 +766,8 @@ var addressPoints = [
   ],
   [
     "Exploring Emerging Memory Technologies in Extreme Scale High Performance Computing<br />University of Queensland, Brisbane; Brisbane",
-    -27.4689623,
-    153.0235009
+    -27.365991,
+    152.948963
   ],
   [
     "Preparing for Extreme Heterogeneity in HPC<br />NITRD HEC IA Working Group, Washington, DC; Washington, DC",
@@ -891,18 +896,18 @@ var addressPoints = [
   ],
   [
     "BOF: Successful FPGA Programming Methods and Tools for HPC<br />SC21, St Louis; St Louis",
-    38.6280278,
-    -90.1910154
+    38.6254063,
+    -90.190009
   ],
   [
     "BOF: Advanced Architecture Testbeds: Community Resources for Enhanced HPC Research<br />SC21, St Louis; St Louis",
-    38.6280278,
-    -90.1910154
+    38.6254063,
+    -90.190009
   ],
   [
     "RSDHA: Redefining Scalability for Diversely Heterogeneous Architectures Workshop<br />SC21, St Louis; St Louis",
-    38.6280278,
-    -90.1910154
+    38.6254063,
+    -90.190009
   ],
   [
     "Abisko: Deep Codesign of an Energy-Optimized, High Performance Neuromorhpic Accelerator<br />Neuro-Inspired Computational Elements (NICE), Heidelberg; Heidelberg",
@@ -1081,12 +1086,27 @@ var addressPoints = [
   ],
   [
     "Navigating the Post-Exascale Computing Era: GPUs, Analog Computing, and AI<br />ADAC Workshop, Helsinki; Helsinki",
-    60.1698897,
-    24.9384719
+    60.1666204,
+    24.9435408
   ],
   [
     "Public Private Partnerships for AI<br />Joint DOE-MEXT Workshop on High Performance Computing, Chicago; Chicago",
     41.8755616,
     -87.6244212
+  ],
+  [
+    "Panel: Navigating the Software Storm: Writing Software in the Age of Extreme Heterogeneity<br />SC25, St Louis, Missouri; St Louis, Missouri",
+    38.6254063,
+    -90.190009
+  ],
+  [
+    "The Golden Age of Architectures: Reimagining HPC Software and Energy Efficiency for the PostExascale Heterogeneous Computing Era<br />2026 ACM Asian School on High-Performance Computing and Artificial Intelligence, Kobe, Japan; Kobe, Japan",
+    34.6932379,
+    135.1943764
+  ],
+  [
+    "Minisymposium: Using LLMs for HPC and HPC for LLMs<br />SIAM Parallel Processing Conference, Berlin; Berlin",
+    52.5173885,
+    13.3951309
   ]
 ];
