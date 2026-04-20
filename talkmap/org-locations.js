@@ -1108,5 +1108,10 @@ var addressPoints = [
     "Minisymposium: Using LLMs for HPC and HPC for LLMs<br />SIAM Parallel Processing Conference, Berlin; Berlin",
     52.5173885,
     13.3951309
+  ],
+  [
+    "Navigating the Post-Exascale Computing Era: Genesis, Promptware, and  Gigawatts<br />Isambard Summit 2026, Bristol; Bristol",
+    51.4538022,
+    -2.5972985
   ]
 ];

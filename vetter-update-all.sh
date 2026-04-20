@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/bash
 set -e
 
 uv run --with pandas --with requests --with pyyaml  vetter-update-pres.py
