@@ -1105,13 +1105,28 @@ var addressPoints = [
     135.1943764
   ],
   [
-    "Minisymposium: Using LLMs for HPC and HPC for LLMs<br />SIAM Parallel Processing Conference, Berlin; Berlin",
+    "Minisymposium: Using LLMs for HPC and HPC for LLMs<br />SIAM Parallel Processing Conference, Berlin, Germany; Berlin, Germany",
     52.5173885,
     13.3951309
   ],
   [
-    "Navigating the Post-Exascale Computing Era: Genesis, Promptware, and  Gigawatts<br />Isambard Summit 2026, Bristol; Bristol",
+    "Navigating the Post-Exascale Computing Era: Genesis, Promptware, and  Gigawatts<br />Isambard Summit 2026, Bristol, UK; Bristol, UK",
     51.4538022,
     -2.5972985
+  ],
+  [
+    "Navigating the Post-Exascale Computing Era: Roadmaps, Promptware, and  Gigawatts<br />InPEx, Rio de Janeiro, Brazil.; Rio de Janeiro, Brazil.",
+    -22.9110137,
+    -43.2093727
+  ],
+  [
+    "VT Data Center Summit<br />Virginia Tech Institute for Advanced Computing, Alexandria, Virginia; Alexandria, Virginia",
+    38.8051095,
+    -77.0470229
+  ],
+  [
+    "Navigating the Post-Exascale Computing Era: Genesis, Promptware, and  Gigawatts<br />IPDPS HIPS Workshop, New Orleans; New Orleans",
+    29.9561422,
+    -90.0733934
   ]
 ];
