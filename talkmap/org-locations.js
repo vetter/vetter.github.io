@@ -1128,5 +1128,10 @@ var addressPoints = [
     "Navigating the Post-Exascale Computing Era: Genesis, Promptware, and  Gigawatts<br />IPDPS HIPS Workshop, New Orleans; New Orleans",
     29.9561422,
     -90.0733934
+  ],
+  [
+    "Kizashi Talk: Five bets on the physical future of computing<br />ACM HPDC, Cleveland, OH; Cleveland, OH",
+    41.4996574,
+    -81.6936772
   ]
 ];
