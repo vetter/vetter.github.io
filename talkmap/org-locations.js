@@ -1133,5 +1133,10 @@ var addressPoints = [
     "Kizashi Talk: Five bets on the physical future of computing<br />ACM HPDC, Cleveland, OH; Cleveland, OH",
     41.4996574,
     -81.6936772
+  ],
+  [
+    "Adventures in Quantum Computing: A New Frontier for Design-Space Exploration and Performance Modeling<br />MODSIM Workshop, Seattle; Seattle",
+    47.6038321,
+    -122.330062
   ]
 ];
