@@ -1138,5 +1138,15 @@ var addressPoints = [
     "Adventures in Quantum Computing: A New Frontier for Design-Space Exploration and Performance Modeling<br />MODSIM Workshop, Seattle; Seattle",
     47.6038321,
     -122.330062
+  ],
+  [
+    "Navigating the Post-Exascale Computing Era: Genesis, Promptware, and  Gigawatts<br />16th International Conference on Parallel Processing & Applied Mathematics, Poznan, Poland; Poznan, Poland",
+    52.4006632,
+    16.9197326
+  ],
+  [
+    "Will Peer Review Survive AI?<br />Workshop on Clusters, Clouds, and Data for Scientific Computing, Lyon; Lyon",
+    45.7578137,
+    4.8320114
   ]
 ];
